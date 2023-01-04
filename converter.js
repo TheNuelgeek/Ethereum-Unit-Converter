@@ -2,6 +2,7 @@ const etherBtn = document.getElementById('con-btn');
 const gweiBtn = document.getElementById('con-btn2');
 const weiBtn = document.getElementById('con-btn3');
 let input = document.getElementById('main-input');
+const _anchor = document.getElementById('anchor')
 
 let firstPlaceHolder = document.getElementById('first');
 let secondPlaceHolder = document.getElementById('second');
@@ -139,3 +140,7 @@ function convert(amount, fromUnit, toUnit) {
         }
     }
 }
+
+_anchor.addEventListener('click', () => {
+    window.open('https://twitter.com/theNuelgeek', '_blank');
+});
