@@ -144,3 +144,10 @@ function convert(amount, fromUnit, toUnit) {
 _anchor.addEventListener('click', () => {
     window.open('https://twitter.com/theNuelgeek', '_blank');
 });
+
+// New Update
+
+// function copyy(){
+//     navigator.clipboard.writeText(newArry.join(""))
+// } 
+ 
